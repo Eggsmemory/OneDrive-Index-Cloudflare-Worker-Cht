@@ -6,7 +6,7 @@ const config = {
     "refresh_token": "",
     "client_id": "",
     "client_secret": "",
-    "redirect_uri": "https://heymind.github.io/tools/microsoft-graph-api-auth",
+    "redirect_uri": "https://eggsmemory.github.io/tools/microsoft-graph-api-auth",
     /**
      * The base path for indexing, all files and subfolders are public by this tool. For example `/Share`.
      */
