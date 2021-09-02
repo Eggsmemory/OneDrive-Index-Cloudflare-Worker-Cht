@@ -18,13 +18,13 @@
 ## How to use 
 
 1. Creat a new APP here https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade and set
-   `redirect_uri` as `https://heymind.github.io/tools/microsoft-graph-api-auth` 。
+   `redirect_uri` as `https://eggsmemory.github.io/tools/microsoft-graph-api-auth` 。
 
 2. Open `Certificates & secrets` and create a new `secret`。
 
 3. Add permissions `offline_access, Files.Read, Files.Read.All` at `API permissions`
 
-4. Get the value of parameter `refresh_token` using [microsoft-graph-api-auth](https://heymind.github.io/tools/microsoft-graph-api-auth)
+4. Get the value of parameter `refresh_token` using [microsoft-graph-api-auth](https://eggsmemory.github.io/tools/microsoft-graph-api-auth)
 
 5. Create a new worker on `Cloudflare Worker` and paste the codes in `index.js` and set paramters as you wish.
 
